@@ -1,3 +1,6 @@
 data/
 logs/
 unitylog.txt
+tensorboard_log
+__pycache__/wrappers.cpython-311.pyc
+yolov8n-seg.pt

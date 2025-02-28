@@ -1,0 +1,1 @@
+python -m rl_zoo3.train --algo tqc --env donkey-mountain-track-v0 -f logs/

@@ -1,0 +1,12 @@
+donkey-mountain-track-with-sam-v0:
+  n_timesteps: !!float 1e6
+  policy: 'CnnPolicy'
+  learning_rate: 0.0003  # 浮點數，而不是字符串 "0.0003"
+  batch_size: 64
+  n_steps: 2048
+  gamma: 0.99
+  gae_lambda: 0.95
+  ent_coef: 0.0
+  vf_coef: 0.5
+  max_grad_norm: 0.5
+  clip_range: 0.2  # 浮點數，而不是字符串 "0.2"
